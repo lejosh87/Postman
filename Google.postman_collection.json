@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "88eb9e84-b53f-4ed4-b619-0773853b2a96",
+		"name": "Google",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35164060"
+	},
+	"item": [
+		{
+			"name": "www.google.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "www.google.com",
+					"host": [
+						"www",
+						"google",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.google.co.in/search?q=toolsqa&oq=toolsqa&aqs=chrome..69i57j69i60l5.2885j0j4&sourceid=chrome&ie=UTF-8",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.google.co.in/search?q=toolsqa&oq=toolsqa&aqs=chrome..69i57j69i60l5.2885j0j4&sourceid=chrome&ie=UTF-8",
+					"protocol": "https",
+					"host": [
+						"www",
+						"google",
+						"co",
+						"in"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "toolsqa"
+						},
+						{
+							"key": "oq",
+							"value": "toolsqa"
+						},
+						{
+							"key": "aqs",
+							"value": "chrome..69i57j69i60l5.2885j0j4"
+						},
+						{
+							"key": "sourceid",
+							"value": "chrome"
+						},
+						{
+							"key": "ie",
+							"value": "UTF-8"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
